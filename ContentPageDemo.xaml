@@ -2,11 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PagesDemo.ContentPageDemo"
-             Title="ContentPageDemo">
+             Title="ContentPageDemo"
+             BackgroundColor="DarkBlue">
     <VerticalStackLayout>
         <Label 
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            Padding="20"
+            FontSize="20"
+            TextColor="White"/>
+        <Button 
+            x:Name="BackButton"
+            Padding="20"
+            Clicked="BackButton_Clicked"
+            Text="Go Back"
+            FontSize="Medium"/>
     </VerticalStackLayout>
 </ContentPage>

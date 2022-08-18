@@ -2,10 +2,15 @@
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public App()
+    {
+        InitializeComponent();
 
-		MainPage = new MainPage();
-	}
+        var navPage = new NavigationPage(new MainPage());
+        navPage.BarBackgroundColor = Colors.Gold;
+        navPage.BarTextColor = Colors.Honeydew;
+        MainPage = new FlyoutPageDemo();
+        //MainPage = navPage;
+
+    }
 }
