@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.TabbedPageDemo"
+             Title="TabbedPageDemo"
+            BarBackgroundColor="Chocolate"
+            BarTextColor="White"
+            >
+    <ContentPage Title="AJ" IconImageSource="dotnet_bot.svg"></ContentPage>
+    <ContentPage Title="Simnesh"
+                 IconImageSource="dotnet_bot.svg"></ContentPage>
+    <ContentPage Title="Sharath"
+                 IconImageSource="dotnet_bot.svg">
+        <Label 
+            Text="Test and Demo"/>
+    </ContentPage>
+</TabbedPage>

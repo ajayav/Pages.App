@@ -9,7 +9,8 @@ public partial class App : Application
         var navPage = new NavigationPage(new MainPage());
         navPage.BarBackgroundColor = Colors.Gold;
         navPage.BarTextColor = Colors.Honeydew;
-        MainPage = new FlyoutPageDemo();
+        //MainPage = new FlyoutPageDemo();        
+        MainPage = new TabbedPageDemo();
         //MainPage = navPage;
 
     }
